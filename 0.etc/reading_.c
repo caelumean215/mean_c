@@ -59,7 +59,9 @@ return 0;
 int main(){
 	char str[10];
 
-	scanf("%s",str);
-	printf("%s",str);
+	scanf("%s\n",str);
+	printf("%s\n",str);
+
+	printf("¿ÃπŒ¡§\n");
 
 }
