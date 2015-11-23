@@ -20,7 +20,7 @@ void put(int value){
 		if(front == -1) ++front;
 		
 		if(rear > MAX_SIZE -1){
-		rear = -1;
+			rear = -1;
 		}
 		
 		data[++rear] = value;
