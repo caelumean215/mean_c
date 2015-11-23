@@ -7,23 +7,23 @@ int main(){
 	int i;
 
 	// Buffer
-	// µ¥ÀÌÅÍ¸¦ ÇÑ °÷¿¡¼­ ´Ù¸¥ ÇÑ °÷À¸·Î Àü¼ÛÇÏ´Â µ¿¾È ÀÏ½ÃÀûÀ¸·Î ±× µ¥ÀÌÅÍ¸¦ º¸°üÇÏ´Â ¸Þ¸ð¸®ÀÇ ¿µ¿ª
-	// ¹öÆÛ´Â FIFO¹æ½ÄÀ» »ç¿ë
+	// ë°ì´í„°ë¥¼ í•œ ê³³ì—ì„œ ë‹¤ë¥¸ í•œ ê³³ìœ¼ë¡œ ì „ì†¡í•˜ëŠ” ë™ì•ˆ ì¼ì‹œì ìœ¼ë¡œ ê·¸ ë°ì´í„°ë¥¼ ë³´ê´€í•˜ëŠ” ë©”ëª¨ë¦¬ì˜ ì˜ì—­
+	// ë²„í¼ëŠ” FIFOë°©ì‹ì„ ì‚¬ìš©
 
 	// scanf()
-	// Å°º¸µå·ÎºÎÅÍ °ªÀ» ÀÔ·Â¹Þ¾Æ ¹öÆÛ¿¡ ÀúÀåÇÑ µÚ, ±×°ÍÀ» scanf·Î ¹Þ¾Æ¼­ º¯¼ö¿¡ ÀúÀåÇÏ´Â ±¸Á¶
+	// í‚¤ë³´ë“œë¡œë¶€í„° ê°’ì„ ìž…ë ¥ë°›ì•„ ë²„í¼ì— ì €ìž¥í•œ ë’¤, ê·¸ê²ƒì„ scanfë¡œ ë°›ì•„ì„œ ë³€ìˆ˜ì— ì €ìž¥í•˜ëŠ” êµ¬ì¡°
 
 	// Ex) input -->  minjung\n
 	//      buffer -> minjung\n
 
 	//      scanf("%c", &ch);
 	//      buffer -> inung\n
-	//      !! %c´Â ¹®ÀÚ¸¦ ¹Þ´Â °³Çà¹®ÀÚ·Î scanf()°¡ chÁÖ¼Ò¿¡ °ªÀ» ³Ö¾îÁØ´Ù´Â °ÍÀÌ´Ù.
+	//      !! %cëŠ” ë¬¸ìžë¥¼ ë°›ëŠ” ê°œí–‰ë¬¸ìžë¡œ scanf()ê°€ chì£¼ì†Œì— ê°’ì„ ë„£ì–´ì¤€ë‹¤ëŠ” ê²ƒì´ë‹¤.
 	
 	scanf("%c", &ch);
 
-	// scanf()´Â \n µé¾î¿Í¾ß Á¾·á°¡ µÈ´Ù.
-	// ¹öÆÛ¿¡ ÀÖ´Â °ªÀ» ¸ðµÎ Ãâ·ÂÇÏ±â À§ÇØ \nÀ» Á¶°ÇÀ¸·Î »ç¿ë.
+	// scanf()ëŠ” \n ë“¤ì–´ì™€ì•¼ ì¢…ë£Œê°€ ëœë‹¤.
+	// ë²„í¼ì— ìžˆëŠ” ê°’ì„ ëª¨ë‘ ì¶œë ¥í•˜ê¸° ìœ„í•´ \nì„ ì¡°ê±´ìœ¼ë¡œ ì‚¬ìš©.
 	while(ch != '\n'){
 
 		printf("%c", ch);

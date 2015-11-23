@@ -7,11 +7,11 @@ int main(){
 	int i;
 	int res;
 
-	// scanf()¿¡ ¹ÝÈ¯°ªÀ» ÀúÀå
+	// scanf()ì— ë°˜í™˜ê°’ì„ ì €ìž¥
 	res = scanf("%c", &ch);
 
-	// res°¡ scanf()·ÎºÎÅÍ ÀÔ·Â¹ÞÀº °ªÀ» Â÷·Ê´ë·Î Ãâ·ÂÇÑ´Ù.
-	// scanf()¹ÝÈ¯°ªÀÌ -1ÀÏ ¶§ Á¾·áÇÑ´Ù.
+	// resê°€ scanf()ë¡œë¶€í„° ìž…ë ¥ë°›ì€ ê°’ì„ ì°¨ë¡€ëŒ€ë¡œ ì¶œë ¥í•œë‹¤.
+	// scanf()ë°˜í™˜ê°’ì´ -1ì¼ ë•Œ ì¢…ë£Œí•œë‹¤.
 	while(res != -1){
 
 		printf("%c", ch);

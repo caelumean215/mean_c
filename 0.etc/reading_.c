@@ -41,12 +41,12 @@
 	int a[10];
 	int i=0;
 
-	printf("10°³ÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä\n");
+	printf("10ê°œì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”\n");
 	while( i <=10){
 	scanf("%d",&a[i]);
 	i++;
 	if(a[i] % 2 ==0){
-		printf("Â¦¼ö : %d\n",);
+		printf("ì§ìˆ˜ : %d\n",);
 		
 	}
 	else{
@@ -62,6 +62,6 @@ int main(){
 	scanf("%s\n",str);
 	printf("%s\n",str);
 
-	printf("ÀÌ¹ÎÁ¤\n");
+	printf("ì´ë¯¼ì •\n");
 
 }
